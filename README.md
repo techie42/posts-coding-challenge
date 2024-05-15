@@ -38,7 +38,7 @@ This is a response to a coding challenge using Laravel Sail and other components
 - Whilst leaving that process running, open another command line terminal in the same project directory
 - In this new terminal:
   - Run `./vendor/bin/sail composer install`
-  - Run `npm run dev`
+  - Run `./vendor/bin/sail npm run dev`
 - Assuming all the above has worked smoothly, you should now be able to open your web-browser:
   - `http://localhost`
 - You should see the project running in the browser
