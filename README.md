@@ -34,6 +34,7 @@ This is a response to a coding challenge using Laravel Sail and other components
   - Choose `mysql` and press Enter
   - The install should run - follow the prompts
 - Run `./vendor/bin/sail up`
+  - This might run for some time ^_^
 - Run `./vendor/bin/sail artisan migrate`
 - Whilst leaving that process running, open another command line terminal in the same project directory
 - In this new terminal:
@@ -43,4 +44,3 @@ This is a response to a coding challenge using Laravel Sail and other components
   - `http://localhost`
 - You should see the project running in the browser
 - Enter some values for a new post, then save it - have fun!
-- 
