@@ -30,4 +30,17 @@ This is a response to a coding challenge using Laravel Sail and other components
   - Note: this already contains private / secure details, but as this is just a local demo project, it's not an issue
 - Run `composer install`
   - Note: you might be asked for a GitHub OAuth token - follow any instructions displayed in the console
+- Run `php artisan sail:install`
+  - Choose `mysql` and press Enter
+  - The install should run - follow the prompts
+- Run `./vendor/bin/sail up`
+- Run `./vendor/bin/sail artisan migrate`
+- Whilst leaving that process running, open another command line terminal in the same project directory
+- In this new terminal:
+  - Run `./vendor/bin/sail composer install`
+  - Run `npm run dev`
+- Assuming all the above has worked smoothly, you should now be able to open your web-browser:
+  - `http://localhost`
+- You should see the project running in the browser
+- Enter some values for a new post, then save it - have fun!
 - 
